@@ -53,8 +53,14 @@ and easy to set up.
     Go to /etc/ansible/hosts file and wrtie the public IP Address of servers in a group
     1. server_number ansible_host=Public_IP_Address
 
-    To run a command in remote server, this is check if the remote srevers are pingable
-    1. ansible group_name_of_servers -m ping
+    OR
+
+    Write the details of server in a group
+    [group_name] e.g [web_servers]
+    1. server_name ansible_host=Public_IP_Address
+
+    To run a command in remote server, this is to check if the remote servers are pingable
+    1. ansible group_name -m ping
 
 # Ansible Adhoc commands
 - ad hoc commands are great for tasks you repeat rarely.
