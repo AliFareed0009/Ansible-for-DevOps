@@ -1,10 +1,17 @@
 
-# Docker-for-DevOps
+# Ansible-for-DevOps
 
 
 # This Repository is for Anisble & Configuration Management Practice 
+- Introduction Ansible
+- Architecture of Ansible
+- Key Concepts
+- Install Ansible
+- Ansible adhoc Commands
+- Ansible modules
+- Ansible Playbooks
 
-This Repository is made to practice Anisble in and implement daily life scenarios of a Devops Engineer.
+This Repository is made to practice Ansible in and implement daily life scenarios of a Devops Engineer.
 
 ## Folders
 
@@ -24,7 +31,7 @@ application deployment, and orchestration.
 and easy to set up.
 
 ## Anisble Architecture
-![Anisble_Configuration_Management](/home/ali-fareed/Ali/Devops/Ansible/Images/Anisble Architecture.jpg)
+![Anisble_Configuration_Management](https://github.com/AliFareed0009/Ansible-for-DevOps/blob/4c767fb21fe6c1e2f9c4768d7fbaec902f8d0884/Images/Anisble%20Architecture.jpg)
 
 # Key Concepts of Anisble
 
@@ -35,7 +42,7 @@ and easy to set up.
 - Roles: Roles are reusable units of playbooks. They encapsulate related tasks, handlers, variables, and files into a directory structure.
 
 
-![Key_Concepts_of_Anisble](/home/ali-fareed/Ali/Devops/Ansible/Images/Key Concepts of Anisble.png)
+![Key_Concepts_of_Anisble](https://github.com/AliFareed0009/Ansible-for-DevOps/blob/4c767fb21fe6c1e2f9c4768d7fbaec902f8d0884/Images/Key%20Concepts%20of%20Anisble.png)
 
 # Install Ansible
 
@@ -73,16 +80,3 @@ and easy to set up.
         - name: this will show the
     date
         command: date
-
-
-
-
-
-
-
-
-
-
-
-
-# Ansible-for-DevOps
