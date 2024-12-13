@@ -1,0 +1,16 @@
+-
+  name: Install Nginx and Start it # Playbook name
+  hosts: servers # Group of servers 
+  become: yes # Become root user
+  tasks:
+    - name: Install Nginx # First Task
+      apt: # Module
+        name: nginx # Name of module
+        state: latest # Version of Nginx
+
+    - name: Start Nginx # Second Task
+      service: # Service details
+        name: nginx # Name of Service
+        state: started # start Nginx
+        enabled: yes # enable Nginx
+      

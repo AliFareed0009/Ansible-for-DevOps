@@ -1,0 +1,9 @@
+-
+  name:  Dates Playbook # Name of the Playbook
+  hosts: servers # The srevers or on which the playbook will run ( In this case this is a group in /etc/ansible/hosts file )
+  tasks: # This is the task
+    - name: show_date # Name of the Task
+      command: date # Command to run on the servers
+    
+    - name: up_time # Name of the Task
+      command: uptime # Up time of server
