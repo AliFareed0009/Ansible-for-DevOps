@@ -54,7 +54,7 @@ and easy to set up.
 
 # Ansible Inventory Format
 
-    1. This is Anisible Inventory
+    This is Anisible Inventory
     [webservers]
     web1.example.com
     web2.example.com
