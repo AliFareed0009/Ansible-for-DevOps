@@ -257,3 +257,15 @@ ansible all -m ping -u ubuntu
 
     ansible all -a "df -h" -u ubuntu
     ansible servers -a "uptime" -u buntu
+
+
+# Ansible Adhoc commands
+- ad hoc commands are great for tasks you repeat rarely.
+- -a is used for adhoc commands
+
+# Syntax
+
+    1. Adhoc Commands
+    
+    nsible all -a "df -h" -u ubuntu
+    ansible servers -a "uptime" -u ubuntu
