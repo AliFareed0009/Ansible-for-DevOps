@@ -247,16 +247,6 @@ ansible all -m ping -u ubuntu
             age: 22
             - name: Jenny
             age: 20
-  
-
-# Ansible Adhoc commands
-- ad hoc commands are great for tasks you repeat rarely.
-- -a is used for adhoc commands
-    
-    1.Adhoc Commands
-
-    ansible all -a "df -h" -u ubuntu
-    ansible servers -a "uptime" -u buntu
 
 
 # Ansible Adhoc commands
@@ -267,5 +257,5 @@ ansible all -m ping -u ubuntu
 
     1. Adhoc Commands
     
-    nsible all -a "df -h" -u ubuntu
+    ansible all -a "df -h" -u ubuntu
     ansible servers -a "uptime" -u ubuntu
