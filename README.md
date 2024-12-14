@@ -212,30 +212,29 @@ ansible all -m ping -u ubuntu
 # YAML
 - YAML (YAML Ain't Markup Language) is a human-readable data serialization format that is commonly used for configuration files and data exchange between languages with different data structures.
 
-# Install Ansible
-
     1. This is YAML Syntax
     
 
-    ### Strings, Numbers and Booleans:
-        string: Hello, World!
-        number: 42
-        boolean: true
+    Strings, Numbers and Booleans:
 
-    ### List
-        fruits:
-        - Apple
-        - Orange
-        - Banana
+    string: Hello, World!
+    number: 42
+    boolean: true
 
-    ### Dictionary
-        person:
-            name: John Doe
-            age: 30
-            city: New York
+    List
+    fruits:
+    - Apple
+    - Orange
+    - Banana
 
-    ### List of Dictionaries
-        YAML allows nesting of lists and dictionaries to represent more complex data.
+    Dictionary
+    person:
+        name: John Doe
+        age: 30
+        city: New York
+
+    List of Dictionaries
+    YAML allows nesting of lists and dictionaries to represent more complex data.
 
     family:
         parents:
@@ -254,5 +253,6 @@ ansible all -m ping -u ubuntu
 - ad hoc commands are great for tasks you repeat rarely.
 - -a is used for adhoc commands
 
+    This is Anisible adhoc Commands
     ansible all -a "df -h" -u ubuntu
     ansible servers -a "uptime" -u buntu
